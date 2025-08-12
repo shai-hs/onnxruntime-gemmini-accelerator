@@ -20,7 +20,7 @@ jobs:
     name: Windows GPU CUDA CI Pipeline  # Job name set here
     runs-on: ["self-hosted", "1ES.Pool=onnxruntime-github-Win2022-GPU-A10"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0 # Fetch all history for all tags and branches
           submodules: 'none'
